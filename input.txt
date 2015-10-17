@@ -1,0 +1,25 @@
+void main()
+{
+int a[10],b,h,var,temp1,temp2,i,n
+print("Enter two numbers")
+b=scanInt()
+h=scanInt()
+n=9
+for(i=1 to n,+1)
+{
+ print("Enter the ",i,"th number:\n")
+  a[i]=scanInt()
+}
+temp1=Area(h,b)
+temp2=Area(b)
+for(var:a:n)
+ print(var,"\n")
+}
+int Area(int a,b)
+{
+return a*b
+}
+int Area(int a)
+{
+return a*a
+}
